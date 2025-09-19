@@ -1,0 +1,39 @@
+# VSCode 快捷键提示 (macOS)
+
+## 基本编辑
+- `Cmd + X` - 剪切行（未选中文本时）
+- `Cmd + C` - 复制行（未选中文本时）
+- `Option + ↑/↓` - 向上/向下移动行
+- `Cmd + Enter` - 在下方插入行
+- `Cmd + Shift + Enter` - 在上方插入行
+- `Cmd + Shift + K` - 删除行
+- `Cmd + Shift + \` - 跳转到匹配的括号
+
+## 导航
+- `Cmd + P` - 快速打开文件
+- `Cmd + Shift + O` - 跳转到符号
+- `Ctrl + G` - 跳转到行
+- `Cmd + F` - 查找
+- `Cmd + Shift + F` - 在文件中查找
+
+## 代码编辑
+- `Tab` - 代码补全（输入几个字母后按Tab键）
+- `Cmd + .` - 显示代码操作
+- `Cmd + /` - 注释/取消注释行
+- `Option + Shift + F` - 格式化文档
+- `F2` - 重命名符号
+
+## Python 特定
+- `Cmd + Shift + P` 然后输入 "Python: Select Interpreter" - 选择Python解释器
+- 输入函数名的前几个字母，然后按 `Tab` 键自动补全
+- 输入 `def` 然后按 `Tab` 键生成函数定义模板
+- 输入 `for` 然后按 `Tab` 键生成for循环模板
+
+## 终端
+- `` Ctrl + ` `` - 打开/关闭终端
+- `Cmd + Shift + C` - 在终端中打开外部控制台
+
+## 窗口管理
+- `Cmd + B` - 切换侧边栏可见性
+- `Cmd + \` - 拆分编辑器
+- `Cmd + 数字` - 聚焦到特定的编辑器组
