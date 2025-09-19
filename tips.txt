@@ -8,6 +8,7 @@
 - `Cmd + Shift + Enter` - 在上方插入行
 - `Cmd + Shift + K` - 删除行
 - `Cmd + Shift + \` - 跳转到匹配的括号
+- `Option + Shift + ↑/↓` - 复制并向上/向下粘贴行
 
 ## 导航
 - `Cmd + P` - 快速打开文件
@@ -15,6 +16,9 @@
 - `Ctrl + G` - 跳转到行
 - `Cmd + F` - 查找
 - `Cmd + Shift + F` - 在文件中查找
+- `Cmd + Shift + E` - 打开资源管理器
+- `Cmd + Shift + D` - 打开调试视图
+- `Cmd + Shift + X` - 打开扩展视图
 
 ## 代码编辑
 - `Tab` - 代码补全（输入几个字母后按Tab键）
@@ -22,18 +26,48 @@
 - `Cmd + /` - 注释/取消注释行
 - `Option + Shift + F` - 格式化文档
 - `F2` - 重命名符号
+- `Cmd + K Cmd + F` - 格式化选中代码
+- `Cmd + ]` - 增加缩进
+- `Cmd + [` - 减少缩进
+- `Cmd + Shift + L` - 选择所有匹配项
 
 ## Python 特定
 - `Cmd + Shift + P` 然后输入 "Python: Select Interpreter" - 选择Python解释器
 - 输入函数名的前几个字母，然后按 `Tab` 键自动补全
 - 输入 `def` 然后按 `Tab` 键生成函数定义模板
 - 输入 `for` 然后按 `Tab` 键生成for循环模板
+- 输入 `if` 然后按 `Tab` 键生成if语句模板
+- 输入 `try` 然后按 `Tab` 键生成try/except模板
+- `Cmd + Shift + P` 然后输入 "Python: Start REPL" - 启动Python交互式环境
+
+## Playwright 特定
+- 输入 `pw` 然后按 `Tab` 键可快速生成Playwright相关代码片段
+- 输入 `pwclick` 然后按 `Tab` 键生成点击元素代码
+- 输入 `pwfill` 然后按 `Tab` 键生成填充表单代码
+- 输入 `pwwait` 然后按 `Tab` 键生成等待元素代码
 
 ## 终端
 - `` Ctrl + ` `` - 打开/关闭终端
 - `Cmd + Shift + C` - 在终端中打开外部控制台
+- `Cmd + K` - 清除终端
+- `Cmd + ↑/↓` - 在终端历史命令中导航
 
 ## 窗口管理
 - `Cmd + B` - 切换侧边栏可见性
 - `Cmd + \` - 拆分编辑器
 - `Cmd + 数字` - 聚焦到特定的编辑器组
+- `Cmd + W` - 关闭当前编辑器
+- `Cmd + Shift + T` - 重新打开关闭的编辑器
+- `Cmd + J` - 切换面板可见性
+
+## Git 操作
+- `Cmd + Shift + G` - 打开源代码管理视图
+- `Cmd + Shift + P` 然后输入 "Git: Commit" - 提交更改
+- `Cmd + Shift + P` 然后输入 "Git: Push" - 推送更改
+- `Cmd + Shift + P` 然后输入 "Git: Pull" - 拉取更改
+
+## 代码补全技巧
+- 输入几个字母后按 `Tab` 键自动补全
+- 使用 `Ctrl + Space` 手动触发建议
+- 在补全列表中使用 `↑/↓` 键导航，按 `Enter` 或 `Tab` 键选择
+- 使用 `Cmd + I` 触发内联建议
